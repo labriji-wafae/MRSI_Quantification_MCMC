@@ -63,7 +63,7 @@ Due to advanced dependencies on neuroimaging medical ecosystems, setting up via 
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/wafae-labriji/MRSI_Quantification_MCMC.git](https://github.com/your-username/MRSI_Quantification_MCMC.git)
+git clone [https://github.com/labriji-wafae/MRSI_Quantification_MCMC.git](https://github.com/labriji-wafae/MRSI_Quantification_MCMC.git)
 cd MRSI_Quantification_MCMC
 
 ```
