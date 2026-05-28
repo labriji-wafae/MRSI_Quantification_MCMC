@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL configuration
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPynb checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+

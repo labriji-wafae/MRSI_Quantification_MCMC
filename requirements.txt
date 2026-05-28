@@ -1,0 +1,11 @@
+# Bibliothèques Core & Traitement
+numpy>=1.22.0
+scipy>=1.8.0
+pandas>=1.4.0
+
+# Neuroimagerie & Format NIfTI
+nibabel>=3.2.0
+
+# Traitement de Résonance Magnétique
+# FSL-MRS et nifti_mrs s'installent généralement via Conda
+fsl-mrs>=2.0.0
