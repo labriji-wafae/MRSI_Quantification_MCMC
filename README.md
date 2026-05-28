@@ -1,4 +1,3 @@
-```markdown
 # MRSI Quantification Pipeline (MCMC & FSL-MRS)
 
 An advanced, high-performance Python pipeline for **Magnetic Resonance Spectroscopy Imaging (MRSI)** voxel-wise quantification. This project integrates custom robust Bayesian inference algorithms, utilizing **Gibbs Sampling with Metropolis-Hastings within Gibbs**, alongside standard classical optimization routines from the University of Oxford's **FSL-MRS** framework (Newton & Metropolis-Hastings).
