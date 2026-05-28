@@ -21,9 +21,10 @@ If you use this code or methods in your research, please cite our IEEE ISBI pape
   organization={IEEE}
 }
 
+---
 ## 📐 Project Architecture
 
-To ensure separation of concerns, high modularity, and smooth distributed execution (resolving potential multiprocessing serialization/pickling issues), the codebase follows a standard production layout:
+The codebase follows a standard production layout:
 
 ```text
 MRSI_Quantification_MCMC/
