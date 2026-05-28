@@ -22,6 +22,8 @@ If you use this code or methods in your research, please cite our IEEE ISBI pape
 }
 
 ---
+
+```
 ## 📐 Project Architecture
 
 The codebase follows a standard production layout:
