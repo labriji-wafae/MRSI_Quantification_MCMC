@@ -1,10 +1,6 @@
-```markdown
 # MRSI Quantification Pipeline (MCMC & FSL-MRS)
 
-[![Paper](https://img.shields.io/badge/IEEE_ISBI-Published-blue.svg)](https://ieeexplore.ieee.org/)
-[![Python](https://img.shields.io/badge/Python-3.10+-brightgreen.svg)](https://www.python.org/)
-
-An advanced, high-performance Python pipeline for **Magnetic Resonance Spectroscopy Imaging (MRSI)** voxel-wise quantification. This project integrates custom robust Bayesian inference algorithms—utilizing **Gibbs Sampling with Metropolis-Hastings within Gibbs**—alongside standard classical optimization routines from the University of Oxford's **FSL-MRS** framework (Newton & Metropolis-Hastings).
+An advanced, high-performance Python pipeline for **Magnetic Resonance Spectroscopy Imaging (MRSI)** voxel-wise quantification. This project integrates custom robust Bayesian inference algorithms, utilizing **Gibbs Sampling with Metropolis-Hastings within Gibbs**, alongside standard classical optimization routines from the University of Oxford's **FSL-MRS** framework (Newton & Metropolis-Hastings).
 
 This software is designed to transform raw spatial complex MRS time-domain or frequency-domain signals into accurate, robust metabolite concentrations maps (e.g., NAA, Cho, Cr), featuring specialized automated tools for digital shimming alignment and polynomial baseline correction.
 
@@ -25,9 +21,12 @@ If you use this code or methods in your research, please cite our IEEE ISBI pape
   organization={IEEE}
 }
 
+---
+
+```
 ## 📐 Project Architecture
 
-To ensure separation of concerns, high modularity, and smooth distributed execution (resolving potential multiprocessing serialization/pickling issues), the codebase follows a standard production layout:
+The codebase follows a standard production layout:
 
 ```text
 MRSI_Quantification_MCMC/
@@ -64,7 +63,7 @@ Due to advanced dependencies on neuroimaging medical ecosystems, setting up via 
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/MRSI_Quantification_MCMC.git](https://github.com/your-username/MRSI_Quantification_MCMC.git)
+git clone [https://github.com/labriji-wafae/MRSI_Quantification_MCMC.git](https://github.com/labriji-wafae/MRSI_Quantification_MCMC.git)
 cd MRSI_Quantification_MCMC
 
 ```
